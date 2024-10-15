@@ -17,7 +17,7 @@ class Player(CircleShape):
         a = self.position + forward * self.radius
         b = self.position - forward * self.radius - right
         c = self.position - forward * self.radius + right
-    return [a, b, c]
+        return [a, b, c]
 
 
     
